@@ -29,3 +29,29 @@ header {
 .headerContainer p {
   font-size: 14pt;
 }
+
+.lowerHeader {
+  padding: 1rem 3rem;
+}
+
+.highInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14pt;
+}
+
+.highInfo .leftArea ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.highInfo .leftArea ul li, .highInfo .rightArea a {
+  cursor: pointer;
+  color: #6b999e;
+}
+
+.highInfo .leftArea ul li:not(:last-of-type) {
+  margin-right: .5rem;
+}
