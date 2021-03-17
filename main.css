@@ -55,3 +55,10 @@ header {
 .highInfo .leftArea ul li:not(:last-of-type) {
   margin-right: .5rem;
 }
+
+.midInfo {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
